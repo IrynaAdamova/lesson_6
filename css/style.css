@@ -1,0 +1,257 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+header {
+	margin: 0 auto;
+	max-width: 810px;
+	padding-top: 30px;
+	margin-bottom: 92px;
+}
+
+main {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 59.8px;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+
+.images {
+	margin-bottom: 60px;
+	width: 100%;
+
+}
+
+.vitae {
+	margin-bottom: 24px;
+
+}
+
+.vitae p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #1E212C;
+}
+
+.text {
+	margin-bottom: 48px;
+	font-size: 16px;
+}
+
+.text p {
+	line-height: 25.6px;
+}
+
+.texton {
+	margin-bottom: 24px;
+}
+
+.textin {
+	margin-bottom: 48px;
+	line-height: 25.6px;
+	font-size: 16px;
+}
+
+.lorem p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #1E212C;
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+
+.mauris {
+	font-size: 16px;
+	line-height: 25.6px;
+	max-width: 810px;
+	color: #424551;
+	margin-bottom: 24px;
+}
+
+li {
+	padding-left: 32px;
+	line-height: 25.6px;
+
+}
+
+ul {
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 50px;
+	color: brown;
+	text-shadow: 3px 5px 23px coral, 2px -22px 28px lightblue;
+}
+
+h4 {
+	font-family: Roboto;
+	font-weight: 700;
+	display: inline-block;
+	font-size: 30px;
+	background-color: green;
+	color: cornsilk;
+	border: 10px dashed firebrick;
+	padding: 15px;
+}
+
+span {
+	color: crimson;
+	font-size: 30px;
+	text-decoration: overline blue;
+}
+
+.box {
+	border: 10px solid yellow;
+	background-color: cadetblue;
+	margin-bottom: 30px;
+	box-shadow: 10px 4px 23px forestgreen;
+}
+
+.giraffes {
+	max-width: 400px;
+	margin: 0px 0px 50px 0px;
+	padding: 40px;
+	border: dotted blue;
+	text-align: center;
+	background-color: honeydew;
+	box-shadow: 5px 2px 13px crimson;
+	min-height: 150px;
+	border-radius: 50%;
+}
+
+.giraf {
+	margin: 0px 0px 40px 0px;
+}
+
+div.translate {
+	background-color: chocolate;
+	max-height: 100px;
+	overflow: auto;
+	box-shadow: 34px 60px 96px darkolivegreen;
+	margin-bottom: 70px;
+	line-height: 1.2;
+}
+
+.translate p {
+	font-size: 30px;
+	font-family: Roboto;
+	padding: 10px;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	background-color: rebeccapurple;
+	border-radius: 50%;
+	margin: 0 auto;
+	box-shadow: 0px 00px 90px 190px rebeccapurple, inset 0px 00px 100px 80px rebeccapurple;
+	margin-bottom: 80px;
+}
+
+img.hello {
+	width: 100%;
+	border: double 8px red;
+}
+
+img.draw {
+	width: 600px;
+	height: 200px;
+	border-radius: 50%;
+	border: 5px dashed #1E212C;
+	box-shadow: 90px 10px 45px crimson, -110px 45px 30px cornflowerblue;
+	margin-bottom: 50px;
+	opacity: 0.8;
+}
+
+.eat {
+	margin-bottom: 30px;
+}
+
+img.eat {
+	max-width: 100%;
+	outline: 5px solid yellow;
+	border-radius: 40%;
+	box-shadow: -22px 30px 23px coral, 30px 40px 10px cornflowerblue;
+}
+
+.they {
+	max-width: 300px;
+	height: 150px;
+	border-radius: 50%;
+	padding: 20px;
+	background-color: chartreuse;
+	outline: 4px solid darkmagenta;
+	overflow: hidden;
+}
+
+.information {
+	max-width: 250px;
+	height: 120px;
+	background-color: aqua;
+	margin-bottom: 40px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+.button {
+	border-radius: 20px;
+	display: inline-block;
+	background-color: coral;
+	padding: 15px;
+	color: rebeccapurple;
+	text-decoration: underline;
+	box-shadow: 0px 15px 8px red;
+	margin-bottom: 40px;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: Roboto;
+	font-weight: 700;
+	color: brown;
+	margin-bottom: 20px;
+	border: 20px dotted orangered;
+	background-color: gold;
+	display: inline-block;
+	padding: 10px;
+}
